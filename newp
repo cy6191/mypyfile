@@ -1,4 +1,4 @@
-def product(x, *y):
+def product(x, *y):   #接收一个或多个数并计算乘积
     s=x
     for n in y:
        s=s*n
