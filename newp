@@ -1,8 +1,8 @@
 def product(x, *y):   #接收一个或多个数并计算乘积
     s=x
-    for n in y:       #使用n，循环y
-       s=s*n
-return s
+    for n in y:       #使用变量n（实际是从1到y），循环y
+       s=s*n          #乘的是n,实际是1到y，FOR语句的特点。
+    return s
 
 
 class User(Base):   #筛选语句，不是很理解
