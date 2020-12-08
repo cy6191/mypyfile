@@ -1,6 +1,6 @@
 def product(x, *y):   #接收一个或多个数并计算乘积
     s=x
-    for n in y:
+    for n in y:       #使用n，循环y
        s=s*n
 return s
 
